@@ -17,7 +17,7 @@ local player = game.Players.LocalPlayer
 local displayName = player.DisplayName or player.Name
 
 local window = library:AddWindow("LMRpublic - Muscle Legends" .. displayName, {
-    main_color = Color3.fromRGB(200, 0, 0),
+    main_color = Color3.fromRGB(139, 0, 0),
     min_size = Vector2.new(650, 870),
     can_resize = false,
 })
